@@ -19,10 +19,16 @@ module.exports = function(config) {
         './node_modules/angular-ui-router/release/angular-ui-router.js', // ui-router
         './node_modules/angular-mocks/angular-mocks.js',                 // loads our modules for tests
         './app/services/users/users.js',                                 // our Users factory
-        './app/components/users/users.js',
+        './app/services/pokemon/pokemon.js',
+        './app/components/users/users.js', 
+        './app/components/profile/profile.js',
+        './app/components/missingno/missingno.js',
         './app/app.js',                                                  // our angular app
         './app/services/users/users.spec.js',                             // our test file for our Users factory
-        './app/components/users/users.spec.js'
+        './app/services/pokemon/pokemon.spec.js',
+        './app/components/users/users.spec.js',
+        './app/components/profile/profile.spec.js',
+        './app/components/missingno/missingno.spec.js'
     ],
 
 
